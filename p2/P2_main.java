@@ -1,5 +1,7 @@
 package p2;
 
+import java.util.Arrays;
+
 public class P2_main {
 
 	public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class P2_main {
 			}
 		}
 		System.out.println("Max: " + max + ", minIndex: " + minIndex);
+		System.out.println(Arrays.toString(numbers));
 	}
 
 }
